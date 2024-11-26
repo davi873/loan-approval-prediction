@@ -1,0 +1,24 @@
+# Ignorar a pasta lib
+lib/
+
+# Arquivos do Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Configurações do ambiente virtual
+venv/
+.env
+
+# Arquivos de log
+*.log
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.sublime-workspace
