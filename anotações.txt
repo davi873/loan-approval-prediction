@@ -1,0 +1,12 @@
+Analise de outliers:
+
+Apresentam outlier no boxplot mas por conta da distribuição dos dados, os valores podem ser refletidos na realidade.
+    person_age, person_income,  credit_score e cb_person_cred_hist_length são valores possivelmente reais 
+    Os outliers do **loan_int_rate** (Taxa de juros do emprestimo) e **loan_amount** (Valor do emprestimo solicitado) estão em coerencia. O maiores valores com as maiores taxas. Não outliers
+    
+    Os valores de `loan_percent_income` acima de **0.4** foram identificados como outliers no boxplot. Após verificação, todos os dados estão coerentes. Embora sejam outliers estatísticos, esses valores refletem cenários esperados, considerando que pessoas com menor renda frequentemente assumem proporções mais altas de empréstimos em relação à sua renda. 
+    
+
+Reais Outliers:
+person_emp_exp(Anos experiencia Trabalho) com valores acima de 35  será considerado o tempo de trabalho requerido para aposentadoria no bRasil 35 anos 
+
